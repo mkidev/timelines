@@ -15,8 +15,8 @@ import org.freaknet.gtrends.api.exceptions.GoogleTrendsRequestException;
 import edu.mki.timelines.shared.model.WordAtDateData;
 
 public class GoogleTrendsGetter {
-	private String user = "marcelkisilowski@gmail.com";
-	private String pass = "Qesfyc01";
+	private String user = "";
+	private String pass = "";
 	private DefaultHttpClient httpClient = new DefaultHttpClient();
 	GoogleAuthenticator authenticator;
 	GoogleTrendsClient client;
